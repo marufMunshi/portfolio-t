@@ -54,8 +54,8 @@ export const Projects = (props) => {
                 backgroundImage: `linear-gradient(to left top, rgba(82,90,119,0.9), 
               rgba(29,130,125,0.7)` }}
             >
-              <div className="flex flex-wrap justify-center pb5">
-                <h2 className="f2-l f3 fw4 livvic ma0 pb3 pb4-l white">Watch the Animation</h2>
+              <div className="flex flex-column items-center justify-center pb5">
+                <h2 className="f2-l f3 fw4 livvic ma0 pv3 pv4-l white">Watch the Animation</h2>
                 <VideoPlayer url={projectData.videoURL} />
               </div>
             </div>}
