@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch, withRouter } from "react-router-dom";
+import { Home } from './component/pages/Home';
+import { About } from './component/pages/About';
+import { Projects } from './component/pages/Project';
+import { Work } from './component/pages/Work';
+
+const ScrollToTopComponent = ({ children, location: { pathname } }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return children || null;
+};
+
+const ScrollToTop = withRouter(ScrollToTopComponent);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/works" exact component={Work} />
+          <Route path="/works/:id" component={Projects} />
+          <Route path="/about/" exact component={About} />
+        </Switch>
+      </ScrollToTop>
+    </Router>
   );
 }
 
