@@ -4,7 +4,7 @@ import { ProjectImage } from '../ProjectImage';
 import { data } from '../../data/projectsData';
 import { Footer } from '../Footer';
 
-export const Work = () => (
+const Work = () => (
   <div>
     <Nav/>
     <div className="flex flex-wrap">
@@ -13,3 +13,5 @@ export const Work = () => (
     <Footer />
   </div>
 );
+
+export default Work;

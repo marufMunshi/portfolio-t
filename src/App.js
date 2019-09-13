@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Switch, withRouter } from "react-router-dom";
-import { Home } from './component/pages/Home';
-import { About } from './component/pages/About';
-import { Projects } from './component/pages/Project';
-import { Work } from './component/pages/Work';
+
+const Home = lazy(() => import('./component/pages/Home'));
+const Work = lazy(() => import('./component/pages/Work'));
+const Projects = lazy(() => import('./component/pages/Project'));
 
 const ScrollToTopComponent = ({ children, location: { pathname } }) => {
   useEffect(() => {
@@ -19,12 +19,13 @@ function App() {
   return (
     <Router>
       <ScrollToTop>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/works" exact component={Work} />
-          <Route path="/works/:id" component={Projects} />
-          <Route path="/about/" exact component={About} />
-        </Switch>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/works" exact component={Work} />
+            <Route path="/works/:id" component={Projects} />
+          </Switch>
+        </Suspense>
       </ScrollToTop>
     </Router>
   );

@@ -6,7 +6,7 @@ import { ImageSlider } from '../ImageSlider';
 import { VideoPlayer } from '../VideoPlayer';
 import { Footer } from '../Footer';
 
-export const Projects = (props) => {
+const Projects = (props) => {
 
   const [projectData, setProjectData] = useState(undefined);
   const [id] = useState(props.match.params.id);
@@ -87,3 +87,5 @@ export const Projects = (props) => {
     </div>
   );
 }
+
+export default Projects;

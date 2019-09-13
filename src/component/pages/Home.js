@@ -3,7 +3,7 @@ import { Nav } from '../Nav';
 import profile_image from '../../resources/profile-image.jpg'
 import { ParticlesAnimation } from '../Particles';
 
-export const Home = () => (
+const Home = () => (
   <div>
     <header
       style={{
@@ -44,3 +44,5 @@ export const Home = () => (
     </header>
   </div>
 );
+
+export default Home;
