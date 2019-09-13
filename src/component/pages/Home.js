@@ -23,9 +23,9 @@ export const Home = () => (
           transform: 'translate(-50%, -50%)',
         }}
       >
-        <img className="br-100 w-30-l w-70" src={profile_image} alt=""/>
+        <img className="br-100 mb2 mb4-l w-30-l w-70" src={profile_image} alt=""/>
         <h2 
-          className="f2-l f4 livvic"
+          className="f2-l f4 livvic ma0"
           style={{
             color: '#C99946'
           }}
@@ -38,9 +38,7 @@ export const Home = () => (
             color: '#A59E69'
           }}
         > 
-            Motion Graphics Designer. Like to Sketch and watch Animated,
-            Comedy, Sci-fi, Drama,
-            superhero movies, TV Series
+          Jr. Graphic Designer, Nagorik TV
         </p>
       </div>
     </header>

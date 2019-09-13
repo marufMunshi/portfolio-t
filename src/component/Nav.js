@@ -12,7 +12,7 @@ export const Nav = (props) => (
           exact={true}
           style={{ textDecoration: 'none' }}
           activeClassName="bg-white red"
-          className="b dib tracked bg-animate white ph3 pv4 hover-bg-white hover-yellow"
+          className="b dib tracked bg-animate white ph3-l pv4-l pa3 hover-bg-white hover-yellow"
         >
           Home
         </NavLink>
@@ -23,18 +23,19 @@ export const Nav = (props) => (
           exact={true}
           style={{ textDecoration: 'none' }}
           activeClassName="bg-white red"
-          className="b dib tracked bg-animate white ph3 pv4 hover-bg-white hover-yellow"
+          className="b dib tracked bg-animate white ph3-l pv4-l pa3  hover-bg-white hover-yellow"
         >
           Works
         </NavLink>
-        <NavLink
-          to="/about/"
+        <a 
+          href="https://drive.google.com/open?id=1_X22fMANIMRvASrS5xmDJF3e9Qcv6M5_"
+          // eslint-disable-next-line react/jsx-no-target-blank
+          target="_blank"
           style={{ textDecoration: 'none' }}
-          activeClassName="bg-white red"
-          className="b bg-animate dib hover-bg-white hover-yellow tracked white ph3 pv4"
+          className="b bg-animate dib hover-bg-white hover-yellow tracked white ph3-l pv4-l pa3 "
         >
-          About
-        </NavLink>
+          Resume
+        </a>
       </div>
     </div>
   </nav>

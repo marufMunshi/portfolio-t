@@ -18,7 +18,7 @@ export const shadowShortFilm = {
     subDescription: {
       title: 'Built With',
       text: [
-        'Autodesk Maya 2016',
+        'Autodesk Maya',
         'Adobe After Effects',
         'Adobe Premiere Pro',
         'Adobe Illustrator',

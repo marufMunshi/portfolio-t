@@ -12,15 +12,15 @@ import { valentainAnimation } from './valentainDayAnimation';
 
 
 export const data = [
-  languageDay,
-  strongWoman,
   shottoPoth,
-  localModel,
-  eidTitle,
-  characterModel,
-  environmentalModel,
+  languageDay,
   shadowShortFilm,
-  animalDesign,
+  strongWoman,
+  eidTitle,
   shottoPothTypo,
+  characterModel,
+  localModel,
+  environmentalModel,
+  animalDesign,
   valentainAnimation
 ];

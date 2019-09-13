@@ -18,8 +18,7 @@ export const characterModel = {
     description: {
       title: 'Character Model',
       text: `Models used for my final year project.
-      For creating these models, I took inspiration from real wolrd
-      people`,
+      I took inspiration from several 3D animated movie characters.`,
     },
     subDescription: {
       title: 'Built With',

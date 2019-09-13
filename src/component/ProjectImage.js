@@ -9,8 +9,8 @@ export const ProjectImage = ({ projects }) => (
         <div className="img-description" style={{ backgroundColor: project.backgroundColor }}>
           <div className="flex h-100 items-center justify-center">
             <p>
-              <span className="f2 fw7 livvic">{project.name}</span>
-              <span className="f4 db f4 pt3">{project.type}</span>
+              <span className="f2-l f4 fw7 livvic">{project.name}</span>
+              <span className="f4-l f6 db f4 pt3">{project.type}</span>
             </p>
           </div>
         </div>

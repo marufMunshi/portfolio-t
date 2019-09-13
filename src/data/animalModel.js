@@ -21,15 +21,14 @@ export const animalDesign = {
   image: `${typo_design_51}`,
   info: {
     description: {
-      title: 'Character Model',
-      text: `Designs used for my final year project.
-      For creating these models, I took inspiration from real wolrd
-      people`,
+      title: 'Typography Design',
+      text: `Designs used for my university project.
+      For creating these design, I took inspiration from 2D cartoon figures.`,
     },
     subDescription: {
       title: 'Built With',
       text: [
-        'Autodesk Maya'
+        'Adobe Illustrator'
       ],
     }
   },

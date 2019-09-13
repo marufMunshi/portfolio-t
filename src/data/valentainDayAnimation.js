@@ -5,20 +5,21 @@ export const valentainAnimation = {
   name: 'Valentain Day CG',
   type: 'Animation',
   shortIntro: [
-    `Intro of a Nagorik TV talk Show`
+    `Brodcast promo for nagorik TV`
   ],
   image: `${valentain_animation}`,
   info: {
     description: {
       title: 'Valentain Day CG',
-      text: `This animation is a intro of Islamik talk show for nagorik TV`,
+      text: `This animation is a brodcast promo for nagorik TV
+      on the ocassion of 'Valentain's Day'`,
     },
     subDescription: {
       title: 'Built With',
       text: [
-        'Cinema 4D',
-        'Adobe Illustrator',
+        'Autodesk Maya',
         'Adobe After Effects',
+        'Adobe Illustrator',
       ],
     }
   },

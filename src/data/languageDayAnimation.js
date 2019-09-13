@@ -11,7 +11,7 @@ export const languageDay = {
   info: {
     description: {
       title: '২১শে ফেব্রুয়ারী',
-      text: `This project is made for Nagorik TV on the ocasion of 'International
+      text: `This project is made for Nagorik TV online on the ocasion of 'International
       Mother Langiage Day'`,
     },
     subDescription: {

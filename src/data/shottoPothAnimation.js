@@ -16,9 +16,10 @@ export const shottoPoth = {
     subDescription: {
       title: 'Built With',
       text: [
-        'Cinema 4D',
-        'Adobe Illustrator',
+        'Autodesk Maya',
         'Adobe After Effects',
+        'Adobe Illustrator',
+        'Adobe Photoshop'
       ],
     }
   },

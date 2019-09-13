@@ -10,27 +10,6 @@ code {
     monospace;
 }
 
-/* .st0,.st1{fill:none;stroke:#FFD785;stroke-width:3;stroke-miterlimit:10;} */
-.st0{fill:none;stroke:#FFD785;stroke-width:3;stroke-miterlimit:10;}
-.st1{display:none;}
-.st2{font-family:'FuturaBT-Heavy';}
-.st3{font-size:100px;}
-.st4{display:inline;}
-.st5{font-family:'UniversalisADFStd-Bold';}
-.st6{letter-spacing:-1;}
-.st7{display:inline;fill:none;stroke:#000000;stroke-width:3;}
-.st8{font-family:'FocoBlack-Regular';}
-.st9{letter-spacing:-2;}
-.st10{display:none;fill:none;stroke:#000000;stroke-width:3;}
-.st11{fill:none;stroke:#FFD785;stroke-width:3;stroke-miterlimit:10;}
-.st12{font-family:'BrandonGrotesque-Bold';}
-.st13{font-size:135.1917px;}
-.st14{letter-spacing:1;}
-
-svg {
-  transform: translateX(-56px);
-}
-
 .img-wrap {
   position: relative;
 }
@@ -120,5 +99,5 @@ svg {
 }
 
 .livvic {
-  font-family: 'Livvic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }

@@ -24,13 +24,15 @@ export const environmentalModel = {
     description: {
       title: 'Environmental Model',
       text: `Models used for my final year project.
-      For creating these models, I took inspiration from real wolrd
-      objects`,
+      For creating these models, I took inspiration from 3D animated movies and \
+      real wolrd environment.`,
     },
     subDescription: {
       title: 'Built With',
       text: [
-        'Autodesk Maya'
+        'Autodesk Maya',
+        'Adobe Illustrator',
+        'Adobe Photoshop'
       ],
     }
   },
